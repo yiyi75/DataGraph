@@ -20,8 +20,8 @@ Follow these steps to get a copy of the project on your local machine and config
    cd DataGraph
 
 2. Install project dependencies
-```bash
-npm install
+   ```bash
+   npm install
 
 3. Inside the firebase folder, paste the Firebase config object in the `firebase.jsx` file.
 
