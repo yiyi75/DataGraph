@@ -1,0 +1,9 @@
+{
+    "Time": [
+        "Time1", "Time2", "Time3", "Time4"
+    ],
+
+    "Group": [
+        "Control", "Default", "Chatbot"
+    ]
+}
