@@ -20,5 +20,15 @@ Follow these steps to get a copy of the project on your local machine and config
    cd DataGraph
 
 2. Install project dependencies
-```bash npm install
+```bash
+npm install
 
+3. Inside the firebase folder, paste the Firebase config object in the `firebase.jsx` file.
+
+4. Can manually add more data to the `src/data` folder by saving data in JSON format.
+- Need to update App.js to load the new variable names
+- Load the new data into the plotarea/plotcomplex scripts
+
+5. Start the development server
+```bash
+npm start
