@@ -9,14 +9,12 @@ function App() {
   return (
     <DndProvider backend={HTML5Backend}>
       <div style={{ display: "flex", flexWrap: "wrap", marginBottom: "20px" }}>
-        {/* Update the name props to match your dataMapping keys */}
         <Variable name="PositiveMood" />
         <Variable name="NegativeMood" />
         <Variable name="LifeSatisfaction" />
       </div>
       <PlotArea />
       <div style={{ display: "flex", flexWrap: "wrap", marginBottom: "20px" }}>
-        {/* Update the name props to match your dataMapping keys */}
         <Variable name="Time" />
         <Variable name="LifeSatisfaction" />
         <Variable name="EmotionRegulation" />
